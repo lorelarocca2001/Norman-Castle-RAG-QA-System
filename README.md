@@ -4,6 +4,10 @@ This project implements a Retrieval-Augmented Generation system for answering qu
 
 The system uses semantic embeddings, FAISS vector search, optional reranking, and both extractive and generative answer generation. The application is developed in Python with Streamlit and deployed on Hugging Face Spaces.
 
+<p align="center">
+  <img src="assets/images/screenshot_home_page.JPG" alt="Streamlit Web Application" width="800" height="2000"/>
+</p>
+
 ## Main Features
 
 - Text chunking and semantic embedding generation
@@ -19,16 +23,20 @@ The system uses semantic embeddings, FAISS vector search, optional reranking, an
 
 The deployed webapp is available at:
 
-[[Hugging Face Space link here](https://huggingface.co/spaces/lorelarocca2001/guida-castello-aci)]
+[Hugging Face Space](https://huggingface.co/spaces/lorelarocca2001/guida-castello-aci)
+
 
 ## Repository Structure
 
-- `app/`: Streamlit webapp source code
-- `notebooks/`: development and experimentation notebook
-- `data/`: chunks and QA evaluation dataset
-- `indexes/`: FAISS index and metadata
-- `assets/`: screenshots and architecture images
-- `docs/`: additional project documentation
+The repository is organized as follows:
+
+- `app/`: contains the Streamlit web application and the Python modules used to run the RAG pipeline.
+- `assets/`: contains static resources, including screenshots and demo videos of the Streamlit web application.
+- `data/`: contains the source data used by the system, including the text chunks and the SQuAD-like QA evaluation dataset.
+- `indexes/`: contains the FAISS vector index and the associated metadata used for semantic retrieval.
+- `notebooks/`: contains the development and experimentation notebooks used to build, test, and evaluate the RAG system.
+- `results/`: contains the experimental outputs, evaluation metrics, reader comparisons, retrieval analysis, and visualizations.
+
 
 ## How to Run
 
