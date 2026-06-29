@@ -1,0 +1,17 @@
+streamlit==1.41.1
+faiss-cpu
+numpy==1.26.4
+torch
+transformers==5.0.0
+sentence-transformers==5.5.1
+huggingface-hub
+accelerate
+tokenizers
+sentencepiece
+protobuf
+tiktoken
+openai
+python-dotenv
+faster-whisper
+audio-recorder-streamlit
+edge-tts
